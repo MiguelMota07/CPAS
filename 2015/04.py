@@ -10,6 +10,7 @@ n = int(input())
 for i in range (n):
     number = int(input())
     nu = int("".join(reversed(str(number))))
+    # nu = int(str(number)[::-1])
     if teste_primo(nu) and teste_primo(number):
         print("SIM")
     else:
